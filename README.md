@@ -6,6 +6,7 @@
 - flask-migrate
 - flask-sqlalchemy
 - flask-cors
+- flask-jwt-extended
 - python-dotenv
 
 # Trabajar con PostgreSQL

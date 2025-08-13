@@ -10,7 +10,8 @@ users_courses = db.Table(
 class User(db.Model):
     __tablename__ = 'users'
     id = db.Column(db.Integer, primary_key=True)
-    email = db.Column(db.String(200), nullable=False)
+    email = db.Column(db.String(200), nullable=False, unique=True)
+    password = db.Column(db.String(200), nullable=False)
 
     # 1-1 Un usuario tiene un perfil
     profile = db.relationship('Profile', back_populates="user", uselist=False, cascade="all, delete-orphan")
