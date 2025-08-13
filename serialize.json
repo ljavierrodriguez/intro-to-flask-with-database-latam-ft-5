@@ -1,0 +1,21 @@
+{
+    "id": 1,
+    "email": "lrodriguez@4geeks.co",
+    "profile": {
+        "bio": "Profesor de Programacion",
+        "github": "ljavierrodriguez"
+    },
+    "todos": [
+        {
+            "id": 1,
+            "label": "Aprender React",
+            "done": false
+        }
+    ],
+    "courses": [
+        {
+            "id": 1,
+            "name": "Aprender React"
+        }
+    ]
+}
