@@ -1,3 +1,5 @@
+# Modelo Entidad Relacion
+![DER](DER.png)
 # Librerias utilizadas:
 
 - flask
